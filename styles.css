@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     /* border: solid black 1px; */
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    /* font-family: 'Roboto', 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 /* HEADING */
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -120,6 +121,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .characters .content {
@@ -170,4 +172,127 @@ body {
 
 .card .card-info {
     text-align: justify;
+}
+
+
+
+
+/* Quote */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 65%;
+}
+
+.quote .title {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .by {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+/* Seasons */
+.seasons .cards-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.seasons-title {
+    text-align: center;
+}
+
+.season-card {
+    width: 300px;
+    /* max-width: 100%; */
+    aspect-ratio: 16/9;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.seasons-container a:nth-child(1) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/5c678a1c1f5ca4337007ce0095c7b5191aaaf04d666c1d0ca63665808ade5f2a._BR-6_AC_SX720_FMjpg_.jpg");
+}
+
+.seasons-container a:nth-child(2) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/5620861fc21876be8b39114ca88c329754b73ab72456164014bd11f7a3f6e7a7.jpg");
+}
+
+/* .seasons-container a:nth-child(3) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/c58d138a1086490f4fc5e03a9c5165d45a2dd25818b14c11ac1fe21a6794de33.jpg");
+} */
+
+.seasons-container a:nth-child(3) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/92215cf9a6a788e6dba30fc12a2227480077ec331e5bacf78c05b895323942a6.jpg");
+}
+
+.seasons-container a:nth-child(4) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/e2fa9fe250008037b64fe202c2edb0842430d01d744beb73046c8f6890b16fe3.jpg");
+}
+
+.seasons-container a:nth-child(5) .season-card{
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/e59aa7b3a9460ec50b4a514afab68cf61e9acd82642452c3eb6e237a44c9d73a.jpg");
+}
+
+.season-number {
+    font-size: 36px;
+    color: white;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer .text a {
+    text-decoration: none;
+    color: bisque;
 }
