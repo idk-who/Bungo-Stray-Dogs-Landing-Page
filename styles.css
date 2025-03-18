@@ -235,27 +235,27 @@ body {
 
 
 .seasons-container a:nth-child(1) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/5c678a1c1f5ca4337007ce0095c7b5191aaaf04d666c1d0ca63665808ade5f2a._BR-6_AC_SX720_FMjpg_.jpg");
+    background-image: url("assets/S1.jpg");
 }
 
 .seasons-container a:nth-child(2) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/5620861fc21876be8b39114ca88c329754b73ab72456164014bd11f7a3f6e7a7.jpg");
+    background-image: url("assets/S2.jpg");
 }
 
 /* .seasons-container a:nth-child(3) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/c58d138a1086490f4fc5e03a9c5165d45a2dd25818b14c11ac1fe21a6794de33.jpg");
+    background-image: url("assets/S3-alt.jpg");
 } */
 
 .seasons-container a:nth-child(3) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/92215cf9a6a788e6dba30fc12a2227480077ec331e5bacf78c05b895323942a6.jpg");
+    background-image: url("assets/S3.jpg");
 }
 
 .seasons-container a:nth-child(4) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/e2fa9fe250008037b64fe202c2edb0842430d01d744beb73046c8f6890b16fe3.jpg");
+    background-image: url("assets/S4.jpg");
 }
 
 .seasons-container a:nth-child(5) .season-card{
-    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/e59aa7b3a9460ec50b4a514afab68cf61e9acd82642452c3eb6e237a44c9d73a.jpg");
+    background-image: url("assets/S5.jpg");
 }
 
 .season-number {
